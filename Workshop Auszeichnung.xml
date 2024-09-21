@@ -1,0 +1,666 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-stylesheet type="text/css" href="https://cwrc.ca/templates/css/tei.css"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Sample Document Title</title>
+            </titleStmt>
+            <publicationStmt>
+                <p/>
+            </publicationStmt>
+            <sourceDesc sameAs="http://www.cwrc.ca">
+                <p>Created from original research by members of CWRC/CSÉC unless otherwise
+                    noted.</p>
+            </sourceDesc>
+        </fileDesc>
+        
+    <xenoData><rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:as="http://www.w3.org/ns/activitystreams#" xmlns:cwrc="http://sparql.cwrc.ca/ontologies/cwrc#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:foaf="http://xmlns.com/foaf/0.1/" xmlns:geo="http://www.geonames.org/ontology#" xmlns:oa="http://www.w3.org/ns/oa#" xmlns:schema="http://schema.org/" xmlns:xsd="http://www.w3.org/2001/XMLSchema#" xmlns:fabio="https://purl.org/spar/fabio#" xmlns:bf="http://www.openlinksw.com/schemas/bif#" xmlns:cito="https://sparontologies.github.io/cito/current/cito.html#" xmlns:org="http://www.w3.org/ns/org#">
+        <rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/">
+          <![CDATA[{
+	"@context": {
+		"dcterms:created": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:created"
+		},
+		"dcterms:issued": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:issued"
+		},
+		"oa:motivatedBy": {
+			"@type": "oa:Motivation"
+		},
+		"@language": "en",
+		"rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+		"rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+		"as": "http://www.w3.org/ns/activitystreams#",
+		"cwrc": "http://sparql.cwrc.ca/ontologies/cwrc#",
+		"dc": "http://purl.org/dc/elements/1.1/",
+		"dcterms": "http://purl.org/dc/terms/",
+		"foaf": "http://xmlns.com/foaf/0.1/",
+		"geo": "http://www.geonames.org/ontology#",
+		"oa": "http://www.w3.org/ns/oa#",
+		"schema": "http://schema.org/",
+		"xsd": "http://www.w3.org/2001/XMLSchema#",
+		"fabio": "https://purl.org/spar/fabio#",
+		"bf": "http://www.openlinksw.com/schemas/bif#",
+		"cito": "https://sparontologies.github.io/cito/current/cito.html#",
+		"org": "http://www.w3.org/ns/org#"
+	},
+	"id": "undefined?place_annotation_20240921111042073",
+	"type": "oa:Annotation",
+	"dcterms:created": "2024-09-21T09:10:42.073Z",
+	"dcterms:modified": "2024-09-21T09:10:42.073Z",
+	"dcterms:creator": {
+		"@id": "https://github.com/lyzim",
+		"@type": [
+			"cwrc:NaturalPerson",
+			"schema:Person"
+		],
+		"cwrc:hasName": "Lydia Zimmermann"
+	},
+	"oa:motivatedBy": "oa:identifying",
+	"oa:hasTarget": {
+		"@id": "undefined?place_annotation_20240921111042073#Target",
+		"@type": "oa:SpecificResource",
+		"oa:hasSource": {
+			"@type": "dctypes:Text",
+			"dc:format": "text/xml"
+		},
+		"oa:renderedVia": {
+			"@id": "https://stable.leafwriter.users.h-da.cloud",
+			"@type": "as:Application",
+			"rdfs:label": "LEAF-Writer",
+			"schema:softwareVersion": "3.5.0"
+		},
+		"oa:hasSelector": {
+			"@id": "undefined?place_annotation_20240921111042073#Selector",
+			"@type": "oa:XPathSelector",
+			"rdf:value": "TEI/text/body/div/opener/placeName"
+		}
+	},
+	"oa:hasBody": {
+		"@type": "cwrc:RealPlace",
+		"@id": "https://d-nb.info/gnd/4094622-8",
+		"dc:format": "text/plain"
+	},
+	"as:generator": {
+		"@id": "https://stable.leafwriter.users.h-da.cloud",
+		"@type": "as:Application",
+		"rdfs:label": "LEAF-Writer",
+		"schema:url": "https://leaf-writer.lincsproject.ca/",
+		"schema:softwareVersion": "3.5.0"
+	},
+	"cwrc:hasCertainty": "cwrc:high",
+	"cwrc:hasPrecision": "cwrc:highCertainty"
+}]]>
+        </rdf:Description>
+      
+        <rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/">
+          <![CDATA[{
+	"@context": {
+		"dcterms:created": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:created"
+		},
+		"dcterms:issued": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:issued"
+		},
+		"oa:motivatedBy": {
+			"@type": "oa:Motivation"
+		},
+		"@language": "en",
+		"rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+		"rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+		"as": "http://www.w3.org/ns/activitystreams#",
+		"cwrc": "http://sparql.cwrc.ca/ontologies/cwrc#",
+		"dc": "http://purl.org/dc/elements/1.1/",
+		"dcterms": "http://purl.org/dc/terms/",
+		"foaf": "http://xmlns.com/foaf/0.1/",
+		"geo": "http://www.geonames.org/ontology#",
+		"oa": "http://www.w3.org/ns/oa#",
+		"schema": "http://schema.org/",
+		"xsd": "http://www.w3.org/2001/XMLSchema#",
+		"fabio": "https://purl.org/spar/fabio#",
+		"bf": "http://www.openlinksw.com/schemas/bif#",
+		"cito": "https://sparontologies.github.io/cito/current/cito.html#",
+		"org": "http://www.w3.org/ns/org#"
+	},
+	"id": "undefined?date_annotation_20240921111211639",
+	"type": "oa:Annotation",
+	"dcterms:created": "2024-09-21T09:12:11.639Z",
+	"dcterms:modified": "2024-09-21T09:12:11.639Z",
+	"dcterms:creator": {
+		"@id": "https://github.com/lyzim",
+		"@type": [
+			"cwrc:NaturalPerson",
+			"schema:Person"
+		],
+		"cwrc:hasName": "Lydia Zimmermann"
+	},
+	"oa:motivatedBy": "oa:identifying",
+	"oa:hasTarget": {
+		"@id": "undefined?date_annotation_20240921111211639#Target",
+		"@type": "oa:SpecificResource",
+		"oa:hasSource": {
+			"@type": "dctypes:Text",
+			"dc:format": "text/xml"
+		},
+		"oa:renderedVia": {
+			"@id": "https://stable.leafwriter.users.h-da.cloud",
+			"@type": "as:Application",
+			"rdfs:label": "LEAF-Writer",
+			"schema:softwareVersion": "3.5.0"
+		},
+		"oa:hasSelector": {
+			"@id": "undefined?date_annotation_20240921111211639#Selector",
+			"@type": "oa:XPathSelector",
+			"rdf:value": "TEI/text/body/div/opener/date"
+		}
+	},
+	"oa:hasBody": {
+		"@type": "xsd:date",
+		"rdf:value": "1956-03-09"
+	},
+	"as:generator": {
+		"@id": "https://stable.leafwriter.users.h-da.cloud",
+		"@type": "as:Application",
+		"rdfs:label": "LEAF-Writer",
+		"schema:url": "https://leaf-writer.lincsproject.ca/",
+		"schema:softwareVersion": "3.5.0"
+	}
+}]]>
+        </rdf:Description>
+      
+        <rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/">
+          <![CDATA[{
+	"@context": {
+		"dcterms:created": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:created"
+		},
+		"dcterms:issued": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:issued"
+		},
+		"oa:motivatedBy": {
+			"@type": "oa:Motivation"
+		},
+		"@language": "en",
+		"rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+		"rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+		"as": "http://www.w3.org/ns/activitystreams#",
+		"cwrc": "http://sparql.cwrc.ca/ontologies/cwrc#",
+		"dc": "http://purl.org/dc/elements/1.1/",
+		"dcterms": "http://purl.org/dc/terms/",
+		"foaf": "http://xmlns.com/foaf/0.1/",
+		"geo": "http://www.geonames.org/ontology#",
+		"oa": "http://www.w3.org/ns/oa#",
+		"schema": "http://schema.org/",
+		"xsd": "http://www.w3.org/2001/XMLSchema#",
+		"fabio": "https://purl.org/spar/fabio#",
+		"bf": "http://www.openlinksw.com/schemas/bif#",
+		"cito": "https://sparontologies.github.io/cito/current/cito.html#",
+		"org": "http://www.w3.org/ns/org#"
+	},
+	"id": "undefined?place_annotation_20240921111236559",
+	"type": "oa:Annotation",
+	"dcterms:created": "2024-09-21T09:12:36.559Z",
+	"dcterms:modified": "2024-09-21T09:12:36.559Z",
+	"dcterms:creator": {
+		"@id": "https://github.com/lyzim",
+		"@type": [
+			"cwrc:NaturalPerson",
+			"schema:Person"
+		],
+		"cwrc:hasName": "Lydia Zimmermann"
+	},
+	"oa:motivatedBy": "oa:identifying",
+	"oa:hasTarget": {
+		"@id": "undefined?place_annotation_20240921111236559#Target",
+		"@type": "oa:SpecificResource",
+		"oa:hasSource": {
+			"@type": "dctypes:Text",
+			"dc:format": "text/xml"
+		},
+		"oa:renderedVia": {
+			"@id": "https://stable.leafwriter.users.h-da.cloud",
+			"@type": "as:Application",
+			"rdfs:label": "LEAF-Writer",
+			"schema:softwareVersion": "3.5.0"
+		},
+		"oa:hasSelector": {
+			"@id": "undefined?place_annotation_20240921111236559#Selector",
+			"@type": "oa:XPathSelector",
+			"rdf:value": "TEI/text/body/div/lg/l[4]/placeName"
+		}
+	},
+	"oa:hasBody": {
+		"@type": "cwrc:RealPlace",
+		"@id": "https://d-nb.info/gnd/4013498-2",
+		"dc:format": "text/plain"
+	},
+	"as:generator": {
+		"@id": "https://stable.leafwriter.users.h-da.cloud",
+		"@type": "as:Application",
+		"rdfs:label": "LEAF-Writer",
+		"schema:url": "https://leaf-writer.lincsproject.ca/",
+		"schema:softwareVersion": "3.5.0"
+	}
+}]]>
+        </rdf:Description>
+      
+        <rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/">
+          <![CDATA[{
+	"@context": {
+		"dcterms:created": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:created"
+		},
+		"dcterms:issued": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:issued"
+		},
+		"oa:motivatedBy": {
+			"@type": "oa:Motivation"
+		},
+		"@language": "en",
+		"rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+		"rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+		"as": "http://www.w3.org/ns/activitystreams#",
+		"cwrc": "http://sparql.cwrc.ca/ontologies/cwrc#",
+		"dc": "http://purl.org/dc/elements/1.1/",
+		"dcterms": "http://purl.org/dc/terms/",
+		"foaf": "http://xmlns.com/foaf/0.1/",
+		"geo": "http://www.geonames.org/ontology#",
+		"oa": "http://www.w3.org/ns/oa#",
+		"schema": "http://schema.org/",
+		"xsd": "http://www.w3.org/2001/XMLSchema#",
+		"fabio": "https://purl.org/spar/fabio#",
+		"bf": "http://www.openlinksw.com/schemas/bif#",
+		"cito": "https://sparontologies.github.io/cito/current/cito.html#",
+		"org": "http://www.w3.org/ns/org#"
+	},
+	"id": "undefined?title_annotation_20240921111519829",
+	"type": "oa:Annotation",
+	"dcterms:created": "2024-09-21T09:15:19.829Z",
+	"dcterms:modified": "2024-09-21T09:15:19.829Z",
+	"dcterms:creator": {
+		"@id": "https://github.com/lyzim",
+		"@type": [
+			"cwrc:NaturalPerson",
+			"schema:Person"
+		],
+		"cwrc:hasName": "Lydia Zimmermann"
+	},
+	"oa:motivatedBy": "oa:identifying",
+	"oa:hasTarget": {
+		"@id": "undefined?title_annotation_20240921111519829#Target",
+		"@type": "oa:SpecificResource",
+		"oa:hasSource": {
+			"@type": "dctypes:Text",
+			"dc:format": "text/xml"
+		},
+		"oa:renderedVia": {
+			"@id": "https://stable.leafwriter.users.h-da.cloud",
+			"@type": "as:Application",
+			"rdfs:label": "LEAF-Writer",
+			"schema:softwareVersion": "3.5.0"
+		},
+		"oa:hasSelector": {
+			"@id": "undefined?title_annotation_20240921111519829#Selector",
+			"@type": "oa:XPathSelector",
+			"rdf:value": "TEI/text/body/div/lg[3]/l[19]/title"
+		}
+	},
+	"oa:hasBody": {
+		"@type": "bf:Title",
+		"@id": "https://d-nb.info/gnd/300169752",
+		"dc:format": "text/plain"
+	},
+	"as:generator": {
+		"@id": "https://stable.leafwriter.users.h-da.cloud",
+		"@type": "as:Application",
+		"rdfs:label": "LEAF-Writer",
+		"schema:url": "https://leaf-writer.lincsproject.ca/",
+		"schema:softwareVersion": "3.5.0"
+	}
+}]]>
+        </rdf:Description>
+      
+        <rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/">
+          <![CDATA[{
+	"@context": {
+		"dcterms:created": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:created"
+		},
+		"dcterms:issued": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:issued"
+		},
+		"oa:motivatedBy": {
+			"@type": "oa:Motivation"
+		},
+		"@language": "en",
+		"rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+		"rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+		"as": "http://www.w3.org/ns/activitystreams#",
+		"cwrc": "http://sparql.cwrc.ca/ontologies/cwrc#",
+		"dc": "http://purl.org/dc/elements/1.1/",
+		"dcterms": "http://purl.org/dc/terms/",
+		"foaf": "http://xmlns.com/foaf/0.1/",
+		"geo": "http://www.geonames.org/ontology#",
+		"oa": "http://www.w3.org/ns/oa#",
+		"schema": "http://schema.org/",
+		"xsd": "http://www.w3.org/2001/XMLSchema#",
+		"fabio": "https://purl.org/spar/fabio#",
+		"bf": "http://www.openlinksw.com/schemas/bif#",
+		"cito": "https://sparontologies.github.io/cito/current/cito.html#",
+		"org": "http://www.w3.org/ns/org#"
+	},
+	"id": "undefined?place_annotation_20240921111633128",
+	"type": "oa:Annotation",
+	"dcterms:created": "2024-09-21T09:16:33.128Z",
+	"dcterms:modified": "2024-09-21T09:16:33.128Z",
+	"dcterms:creator": {
+		"@id": "https://github.com/lyzim",
+		"@type": [
+			"cwrc:NaturalPerson",
+			"schema:Person"
+		],
+		"cwrc:hasName": "Lydia Zimmermann"
+	},
+	"oa:motivatedBy": "oa:identifying",
+	"oa:hasTarget": {
+		"@id": "undefined?place_annotation_20240921111633128#Target",
+		"@type": "oa:SpecificResource",
+		"oa:hasSource": {
+			"@type": "dctypes:Text",
+			"dc:format": "text/xml"
+		},
+		"oa:renderedVia": {
+			"@id": "https://stable.leafwriter.users.h-da.cloud",
+			"@type": "as:Application",
+			"rdfs:label": "LEAF-Writer",
+			"schema:softwareVersion": "3.5.0"
+		},
+		"oa:hasSelector": {
+			"@id": "undefined?place_annotation_20240921111633128#Selector",
+			"@type": "oa:XPathSelector",
+			"rdf:value": "TEI/text/body/div/lg[2]/l[5]/placeName"
+		}
+	},
+	"oa:hasBody": {
+		"@type": "cwrc:RealPlace",
+		"@id": "https://d-nb.info/gnd/4007328-2",
+		"dc:format": "text/plain"
+	},
+	"as:generator": {
+		"@id": "https://stable.leafwriter.users.h-da.cloud",
+		"@type": "as:Application",
+		"rdfs:label": "LEAF-Writer",
+		"schema:url": "https://leaf-writer.lincsproject.ca/",
+		"schema:softwareVersion": "3.5.0"
+	}
+}]]>
+        </rdf:Description>
+      
+        <rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/">
+          <![CDATA[{
+	"@context": {
+		"dcterms:created": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:created"
+		},
+		"dcterms:issued": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:issued"
+		},
+		"oa:motivatedBy": {
+			"@type": "oa:Motivation"
+		},
+		"@language": "en",
+		"rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+		"rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+		"as": "http://www.w3.org/ns/activitystreams#",
+		"cwrc": "http://sparql.cwrc.ca/ontologies/cwrc#",
+		"dc": "http://purl.org/dc/elements/1.1/",
+		"dcterms": "http://purl.org/dc/terms/",
+		"foaf": "http://xmlns.com/foaf/0.1/",
+		"geo": "http://www.geonames.org/ontology#",
+		"oa": "http://www.w3.org/ns/oa#",
+		"schema": "http://schema.org/",
+		"xsd": "http://www.w3.org/2001/XMLSchema#",
+		"fabio": "https://purl.org/spar/fabio#",
+		"bf": "http://www.openlinksw.com/schemas/bif#",
+		"cito": "https://sparontologies.github.io/cito/current/cito.html#",
+		"org": "http://www.w3.org/ns/org#"
+	},
+	"id": "undefined?place_annotation_20240921111731836",
+	"type": "oa:Annotation",
+	"dcterms:created": "2024-09-21T09:17:31.836Z",
+	"dcterms:modified": "2024-09-21T09:17:31.836Z",
+	"dcterms:creator": {
+		"@id": "https://github.com/lyzim",
+		"@type": [
+			"cwrc:NaturalPerson",
+			"schema:Person"
+		],
+		"cwrc:hasName": "Lydia Zimmermann"
+	},
+	"oa:motivatedBy": "oa:identifying",
+	"oa:hasTarget": {
+		"@id": "undefined?place_annotation_20240921111731836#Target",
+		"@type": "oa:SpecificResource",
+		"oa:hasSource": {
+			"@type": "dctypes:Text",
+			"dc:format": "text/xml"
+		},
+		"oa:renderedVia": {
+			"@id": "https://stable.leafwriter.users.h-da.cloud",
+			"@type": "as:Application",
+			"rdfs:label": "LEAF-Writer",
+			"schema:softwareVersion": "3.5.0"
+		},
+		"oa:hasSelector": {
+			"@id": "undefined?place_annotation_20240921111731836#Selector",
+			"@type": "oa:XPathSelector",
+			"rdf:value": "TEI/text/body/div/lg[2]/l[10]/placeName"
+		}
+	},
+	"oa:hasBody": {
+		"@type": "cwrc:RealPlace",
+		"@id": "http://www.wikidata.org/entity/Q2833",
+		"dc:format": "text/plain"
+	},
+	"as:generator": {
+		"@id": "https://stable.leafwriter.users.h-da.cloud",
+		"@type": "as:Application",
+		"rdfs:label": "LEAF-Writer",
+		"schema:url": "https://leaf-writer.lincsproject.ca/",
+		"schema:softwareVersion": "3.5.0"
+	}
+}]]>
+        </rdf:Description>
+      
+        <rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/">
+          <![CDATA[{
+	"@context": {
+		"dcterms:created": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:created"
+		},
+		"dcterms:issued": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:issued"
+		},
+		"oa:motivatedBy": {
+			"@type": "oa:Motivation"
+		},
+		"@language": "en",
+		"rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+		"rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+		"as": "http://www.w3.org/ns/activitystreams#",
+		"cwrc": "http://sparql.cwrc.ca/ontologies/cwrc#",
+		"dc": "http://purl.org/dc/elements/1.1/",
+		"dcterms": "http://purl.org/dc/terms/",
+		"foaf": "http://xmlns.com/foaf/0.1/",
+		"geo": "http://www.geonames.org/ontology#",
+		"oa": "http://www.w3.org/ns/oa#",
+		"schema": "http://schema.org/",
+		"xsd": "http://www.w3.org/2001/XMLSchema#",
+		"fabio": "https://purl.org/spar/fabio#",
+		"bf": "http://www.openlinksw.com/schemas/bif#",
+		"cito": "https://sparontologies.github.io/cito/current/cito.html#",
+		"org": "http://www.w3.org/ns/org#"
+	},
+	"id": "undefined?place_annotation_20240921111755701",
+	"type": "oa:Annotation",
+	"dcterms:created": "2024-09-21T09:17:55.701Z",
+	"dcterms:modified": "2024-09-21T09:17:55.701Z",
+	"dcterms:creator": {
+		"@id": "https://github.com/lyzim",
+		"@type": [
+			"cwrc:NaturalPerson",
+			"schema:Person"
+		],
+		"cwrc:hasName": "Lydia Zimmermann"
+	},
+	"oa:motivatedBy": "oa:identifying",
+	"oa:hasTarget": {
+		"@id": "undefined?place_annotation_20240921111755701#Target",
+		"@type": "oa:SpecificResource",
+		"oa:hasSource": {
+			"@type": "dctypes:Text",
+			"dc:format": "text/xml"
+		},
+		"oa:renderedVia": {
+			"@id": "https://stable.leafwriter.users.h-da.cloud",
+			"@type": "as:Application",
+			"rdfs:label": "LEAF-Writer",
+			"schema:softwareVersion": "3.5.0"
+		},
+		"oa:hasSelector": {
+			"@id": "undefined?place_annotation_20240921111755701#Selector",
+			"@type": "oa:XPathSelector",
+			"rdf:value": "TEI/text/body/div/lg/l[20]/placeName"
+		}
+	},
+	"oa:hasBody": {
+		"@type": "cwrc:RealPlace",
+		"@id": "http://www.wikidata.org/entity/Q490453",
+		"dc:format": "text/plain"
+	},
+	"as:generator": {
+		"@id": "https://stable.leafwriter.users.h-da.cloud",
+		"@type": "as:Application",
+		"rdfs:label": "LEAF-Writer",
+		"schema:url": "https://leaf-writer.lincsproject.ca/",
+		"schema:softwareVersion": "3.5.0"
+	}
+}]]>
+        </rdf:Description>
+      </rdf:RDF></xenoData></teiHeader>
+    <text>
+        <body>
+            <div>
+                <pb facs="https://github.com/sbued/2024-03-08_LCA_WS/blob/main/b2_0001.jpg?raw=true" n="1"/>
+                <opener><placeName key="Hamburg-Harburg" ref="https://d-nb.info/gnd/4094622-8" cert="high">Hamburg-Harburg<precision match="@ref" precision="high"/></placeName>, den  <date when="1956-03-09" cert="high">9.3. 56</date>
+                <salute>Lieber <persName>Gerhard</persName>!</salute></opener>
+                <lg><l>Recht vielen Dank für Deinen</l>
+                <l>Brief. Um ganz ehrlich zu sein, ich</l>
+                <l>war wirklich böse und etwas enttäuscht,</l>
+                <l>nichts aus <placeName key="Eckernförde" ref="https://d-nb.info/gnd/4013498-2">Eckernförde</placeName> zu hören; sogar</l>
+                <l>zu Hause hab' ich mich darüber beklagt.</l>
+                <l>Um so glücklicher und überraschter war</l>
+                <l>ich, als Du mir schriebst.</l>
+                <l>Ich danke Dir für das Bild, auch mir</l>
+                <l>gefällt es gut. Weshalb sollte ich böse</l>
+                <l>sein, daß Du mich einhakst, es ist sehr</l>
+                <l>nett.</l>
+                <l>Wie gefällt Dir „die graue Stadt?" Oder</l>
+                <l>hast Du wenig Zeit, Dich umzusehen?</l>
+                <l>Wir waren in der Schulzeit 4 Tage mit</l>
+                <l>Herrn <persName>Rauter</persName> dort, hatten herrliches Wetter</l>
+                <l>und dadurch einen ganz anderen Eindruck.</l>
+                <l>Fährst Du sonntags nach Hause, oder hast</l>
+                <l>Du manchmal Dienst?</l>
+                <l>Wie geht es den Deinen? Was macht <persName>Edeltrude</persName>?</l>
+                <l>kommt <persName>Harras</persName> Ostern nach <placeName key="Eckernförde" ref="http://www.wikidata.org/entity/Q490453">Eckernförde</placeName>?</l></lg>
+                <pb facs="https://github.com/sbued/2024-03-08_LCA_WS/blob/main/b2_0002.jpg?raw=true" n="2"/>
+                <lg><l>Wann wird Edeltruck in den Westen fahren?</l>
+                <l>Es wird jetzt langsam wärmer, dann ist</l>
+                <l>es dort unten auch erträglich.</l>
+                <l>In einer Woche gehe ich in die Nacht:¬</l>
+                <l>wache, und zu Ostern werde ich in <placeName key="Bochum" ref="https://d-nb.info/gnd/4007328-2">Bochum</placeName></l>
+                <l>sein. Du kannst Dir nicht vorstellen, wie</l>
+                <l>ich mich darauf freue. Anfang Januar</l>
+                <l>war ich zuletzt dort. Mutti geht es nicht</l>
+                <l>gut, und sie wartet, daß ich nach Hause</l>
+                <l>komme. Vati ist diese Woche in <placeName key="Freiburg im Breisgau" ref="http://www.wikidata.org/entity/Q2833">Freiburg</placeName>,</l>
+                <l>heute erhielt ich eine Ansichtskarte.</l>
+                <l>"In den kalten Tagen war es in unserem</l>
+                <l>kleinen Häuschen unerträglich. Ein Wasserrohr</l>
+                <l>war geplatzt, jeden Tag mußte man den</l>
+                <l>Haupthahn auftauen, die Betten anwärmen,</l>
+                <l>Flüssiges nahm feste Formen an, die man mit</l>
+                <l>dem Namen Eis betituliert, die Küche wurde</l>
+                <l>nicht warm, und das Leben spielte sich in</l>
+                <l>Vatis Arbeitszimmer ab". So schrieb mir</l>
+                <l>Vati die Neuigheiten vom 'Unternehmen Eispalast'.</l>
+                <l>Nun wird auch dort der Frühling eingekehrt</l>
+                <l>sein. Eva war so unglücklich gefallen, daß sie</l>
+                <l>sich fast das Auge einschlug. Klaus feiert krank,</l>
+                <l>er hat sich den Daumen verstaucht.</l></lg>
+                <pb facs="https://github.com/sbued/2024-03-08_LCA_WS/blob/main/b2_0003.jpg?raw=true" n="3"/>
+                <lg><l>Daß das Gemeindefest schön war, freut mich,</l>
+                <l>hat es auch ordentlich Geld eingebracht?</l>
+                <l>Schade, daß ich nicht dabei sein konnte.</l>
+                <l>Auf unserem Rosenmontagsfest habe ich</l>
+                <l>mich gut amüsiert. Anfangs war ich ein</l>
+                <l>bißchen einsam; es ist wohl so, wenn man</l>
+                <l>als Mädel allein geht. Es fand sich aber</l>
+                <l>bald eine fröhliche Gesellschaft zusammen.</l>
+                <l>Wir tanzten den ganzen Abend. Ich glaube</l>
+                <l>fast, jetzt kann ich es, bis auf die ganz</l>
+                <l>modernen Tänze. Hast Du eigentlich</l>
+                <l>tanzen gelernt? Tanzt Du gern?</l>
+                <l>Wir haben ja Fastenzeit. Am Sonntag werde</l>
+                <l>ich einen Einkehrtag mitmachen. Zum ersten</l>
+                <l>Mal, daß ich dabei sein kann. Ich bin gespannt,</l>
+                <l>wie es werden wird. Hast Du schon so etwas</l>
+                <l>mithalten können?</l>
+                <l>Vor 14 Tagen war ich in der Oper und</l>
+                <l>hörte den <title key="Der fliegende Holländer" ref="https://d-nb.info/gnd/300169752">fliegenden Holländer</title>. Es war</l>
+                <l>meine erste Wagneroper. Die Musik war</l>
+                <l>großartig, dagegen fand ich die Sänger etwas</l>
+                <l>zu schwach. Ich habe keine Kritiken darüber</l>
+                <l>gehört, und das ist nur meine völlig unmaß:¬</l>
+                <l>gebliche Meinung.</l></lg>
+                <pb facs="https://github.com/sbued/2024-03-08_LCA_WS/blob/main/b2_0004.jpg?raw=true" n="4"/>
+                <lg><l>Daß Du mich wegen „meines Artikels"</l>
+                <l>auslachst ist nicht nett, aber Du wirst</l>
+                <l>mit Deiner klugen Sachlichkeit wohl recht</l>
+                <l>haben. Dies war mal wieder meine Frauen:¬</l>
+                <l>logik, und die ist sehr schwer verständlich!</l>
+                <l>Habe ich Dich damit sehr geärgert?</l>
+                <l>Darf ich Dich mit Politik belästigen?</l>
+                <l>oder diskutierst Die nicht gern mit einer</l>
+                <l>Frau darüber, dabei bei dieser Logik!? Es ist</l>
+                <l>auch schwierig, darüber zu schreiben.</l>
+                <l>Was sagst Du zum Wahlergebnis in Nordrhein:¬</l>
+                <l>westfalen und zur neuen Regierungsbildung?</l>
+                <l>Was hältst Du vom Zentrum? Ich bin neugierig</l>
+                <l>auf Deine Ansicht. Eine Reihe Menschen haben mir</l>
+                <l>die ihre gesagt, sodaß ich vorerst schweigen</l>
+                <l>möchte. Ist das feige?</l>
+                <l>Lieber Gerhard! Das wäre erstmal alles.</l>
+                <l>Wirst Du mir antworten, wo Du</l>
+                <l>doch in einem "schönen, sauberen</l>
+                <l>und geheizten Zimmer wohnst?</l></lg>
+                <closer>Es grüßt Dich herzlich
+                <signed>Deine Elisabeth</signed></closer>
+            </div>
+        </body>
+    </text>
+</TEI>
